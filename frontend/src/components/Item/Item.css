@@ -1,0 +1,43 @@
+.item {
+    width: 340px;
+    margin-left: 15px;
+}
+
+.item p {
+    margin: 16px 0px;
+}
+
+.item-prices {
+    display: flex;
+    gap: 20px;
+}
+
+.item-prices-new {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-prices-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+@media screen and (max-width: 1024px) {
+    .item {
+        width: 280px; /* Adjusted width for tablet view */
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .item {
+        width: 240px; /* Adjusted width for mobile view */
+    }
+}
