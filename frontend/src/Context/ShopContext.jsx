@@ -12,7 +12,6 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
 
-    const url = "https://condormarket-backend-bhle.onrender.com";
     const [all_product, setAll_Product] = useState([]);
     const [cartItems, setCartItems] = useState(getDefaultCart());
 
